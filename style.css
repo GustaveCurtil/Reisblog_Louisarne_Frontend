@@ -1,0 +1,25 @@
+
+:root {
+    --achtergrondkleur: #F4F4CF;
+    --zwart: #353535;
+    --ying: #FF5555;
+    --yang: #66C380;
+}
+
+body {
+    background-color: var(--achtergrondkleur);
+}
+
+header>p {
+    color: var(--yang);
+}
+
+h1>span:nth-child(1) { color: #00973F; }
+h1>span:nth-child(2) { color: #F6EA03; }
+h1>span:nth-child(3) { color: #EA8000; }
+h1>span:nth-child(4) { color: #007AC4; }
+h1>span:nth-child(5) { color: #C8047F; }
+h1>span:nth-child(6) { color: #E40515; }
+h1>span:nth-child(7) { color: #FBB902; }
+h1>span:nth-child(8) { color: #97BC21; }
+h1>span:nth-child(9) { color: #01509E; }
