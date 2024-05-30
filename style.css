@@ -20,6 +20,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+#pagewrapper {
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
 header {
     height: 100px;
     width: 100%;
@@ -48,7 +53,6 @@ h1>span:nth-child(9) { color: #01509E; }
 main {
     display: none;
     width: 95%;
-    height: calc(100svh - 140px);
     margin: 0 auto;
 }
 
