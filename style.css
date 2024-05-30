@@ -54,6 +54,7 @@ main {
 
 .currentpage {
     display: flex;
+    flex-direction: column;
 }
 
 nav {
