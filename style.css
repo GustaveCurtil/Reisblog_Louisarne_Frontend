@@ -74,6 +74,8 @@ nav {
 .current {
     background-color: var(--achtergrondkleur);
     border-top: 0px;
+    color: var(--yang);
+    font-weight: 500;
 }
 
 nav div {
@@ -83,6 +85,8 @@ nav div {
     border-top: 2px solid var(--ying);
 
     background-color: var(--yang);
+    color: var(--achtergrondkleur);
+    font-weight: 500;
 
     display: flex;
     justify-content: center;
@@ -93,6 +97,25 @@ nav div:last-of-type {
     border-right: 0px;
 }
 
+.terugknop {
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid var(--ying);
+
+    background-color: var(--yang);
+    color: var(--achtergrondkleur);
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
+}
 
 /*FAQ EN VERHALEN*/
 .FAQ {
@@ -110,6 +133,7 @@ nav div:last-of-type {
 
 .FAQ ins {
     text-decoration: none;
+    font-weight: 100;
 }
 
 .FAQ>article:not(:last-of-type) {
@@ -119,10 +143,12 @@ nav div:last-of-type {
 
 .vraag {
     color: var(--yang);
+    font-weight: 500;
 }
 
 .antwoord {
     color: var(--achtergrondkleur);
+    font-weight: 300;
 }
 
 /*VERHALEN*/
