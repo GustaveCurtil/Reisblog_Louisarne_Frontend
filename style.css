@@ -58,7 +58,6 @@ main {
     display: none;
     width: 95%;
     margin: 0 auto;
-    background-color: #00973F;
 }
 
 .currentpage {
@@ -93,6 +92,39 @@ nav div {
 nav div:last-of-type {
     border-right: 0px;
 }
+
+
+/*FAQ EN VERHALEN*/
+.FAQ {
+    background-color: var(--ying);
+    padding: 2%;
+}
+
+.FAQ>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--achtergrondkleur);
+    margin-bottom: 2%;
+}
+
+.FAQ ins {
+    text-decoration: none;
+}
+
+.FAQ>article {
+    margin: 2% 0;
+}
+
+.vraag {
+    color: var(--yang);
+}
+
+.antwoord {
+    color: var(--achtergrondkleur);
+}
+
+
 
 @media screen and (min-width: 1200px) {
     
