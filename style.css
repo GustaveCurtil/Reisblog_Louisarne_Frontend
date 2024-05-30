@@ -112,9 +112,10 @@ nav div:last-of-type {
     text-decoration: none;
 }
 
-.FAQ>article {
-    margin: 2% 0;
+.FAQ>article:not(:last-of-type) {
+    margin-bottom: 2%;
 }
+
 
 .vraag {
     color: var(--yang);
@@ -123,6 +124,39 @@ nav div:last-of-type {
 .antwoord {
     color: var(--achtergrondkleur);
 }
+
+/*VERHALEN*/
+
+.verhalen>h2 {
+    margin: 4% 0;
+}
+
+.verhalen>article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+
+.verhalen>article>img {
+    width: 5%;
+    object-fit: contain;
+}
+
+.verhalen>article>a {
+    width: 75%;
+    color: var(--zwart);
+    margin-left: 2%;
+}
+
+.verhalen>article>p {
+    width: 20%;
+    object-fit: contain;
+}
+
+.verhalen a {
+    color: var(--zwart)
+}
+
 
 
 
