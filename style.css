@@ -56,7 +56,7 @@ main {
     overflow-y: auto;
 }
 
-.currentPage {
+.currentpage {
     display: flex;
 }
 
@@ -64,4 +64,25 @@ nav {
     width: 100%;
     height: 40px;
     background-color: var(--yang);
+    display: flex;
+}
+
+.current {
+    background-color: var(--achtergrondkleur);
+    border-top: 0px;
+}
+
+nav a {
+    width: calc(100% / 3);
+    height: 40px;
+    border-right: 2px solid var(--ying);
+    border-top: 2px solid var(--ying);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:last-of-type {
+    border-right: 0px;
 }
