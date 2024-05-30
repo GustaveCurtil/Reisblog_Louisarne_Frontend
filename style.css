@@ -68,7 +68,7 @@ nav {
     border-top: 0px;
 }
 
-nav a {
+nav div {
     width: calc(100% / 3);
     height: 40px;
     border-right: 2px solid var(--ying);
@@ -81,7 +81,7 @@ nav a {
     align-items: center;
 }
 
-nav a:last-of-type {
+nav div:last-of-type {
     border-right: 0px;
 }
 
