@@ -25,7 +25,7 @@ body {
 }
 
 #pagewrapper {
-    height: calc(100vh - 40px);
+    height: calc(100svh - 40px);
     overflow-y: auto;
 }
 
@@ -58,6 +58,7 @@ main {
     display: none;
     width: 95%;
     margin: 0 auto;
+    background-color: #00973F;
 }
 
 .currentpage {
