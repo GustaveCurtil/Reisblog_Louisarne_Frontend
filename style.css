@@ -44,6 +44,7 @@ header>p {
     font-weight: bolder;
 }
 
+/*/ / TITEL / / */
 h1>span:nth-child(1) { color: #00973F; }
 h1>span:nth-child(2) { color: #F6EA03; }
 h1>span:nth-child(3) { color: #EA8000; }
@@ -54,16 +55,6 @@ h1>span:nth-child(7) { color: #FBB902; }
 h1>span:nth-child(8) { color: #97BC21; }
 h1>span:nth-child(9) { color: #01509E; }
 
-main {
-    display: none;
-    width: 95%;
-    margin: 0 auto;
-}
-
-.currentpage {
-    display: flex;
-    flex-direction: column;
-}
 
 nav {
     width: 100%;
@@ -71,124 +62,15 @@ nav {
     display: flex;
 }
 
-.current {
-    background-color: var(--achtergrondkleur);
-    border-top: 0px;
-    color: var(--yang);
-    font-weight: 500;
-}
-
-nav div {
-    width: calc(100% / 3);
-    height: 40px;
-    border-right: 2px solid var(--ying);
-    border-top: 2px solid var(--ying);
-
-    background-color: var(--yang);
-    color: var(--achtergrondkleur);
-    font-weight: 500;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav div:last-of-type {
-    border-right: 0px;
-}
-
-.terugknop {
-    width: 100%;
-    height: 40px;
-    border-top: 2px solid var(--ying);
-
-    background-color: var(--yang);
-    color: var(--achtergrondkleur);
-    text-decoration: none;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-weight: 500;
-}
-
 h2 {
     font-weight: 500;
 }
-
-/*FAQ EN VERHALEN*/
-.FAQ {
-    background-color: var(--ying);
-    padding: 2%;
-}
-
-.FAQ>div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--achtergrondkleur);
-    margin-bottom: 2%;
-}
-
-.FAQ ins {
-    text-decoration: none;
-    font-weight: 100;
-}
-
-.FAQ>article:not(:last-of-type) {
-    margin-bottom: 2%;
-}
-
-
-.vraag {
-    color: var(--yang);
-    font-weight: 500;
-}
-
-.antwoord {
-    color: var(--achtergrondkleur);
-    font-weight: 300;
-}
-
-/*VERHALEN*/
-
-.verhalen>h2 {
-    margin: 4% 0;
-}
-
-.verhalen>article {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 4%;
-}
-
-.verhalen>article>img {
-    width: 5%;
-    object-fit: contain;
-}
-
-.verhalen>article>a {
-    width: 75%;
-    color: var(--zwart);
-    margin-left: 2%;
-}
-
-.verhalen>article>p {
-    width: 20%;
-    object-fit: contain;
-}
-
-.verhalen a {
-    color: var(--zwart)
-}
-
 
 
 
 @media screen and (min-width: 1200px) {
     
     main {
-        width: calc(100% / 3);
+        width: calc((100% / 3) - 30px);
     }
 }
