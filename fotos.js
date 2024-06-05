@@ -14,7 +14,9 @@ console.log(fotos)
 
 console.log(percentageToPixels(window, 2.5));
 
+
 fotos.forEach(foto => {
+    document.documentElement.style.setProperty('--randmarge', percentageToPixels(window, 2.5) + 'px');
     if (kolom1hoogte <= kolom2hoogte && kolom1hoogte <= kolom3hoogte) {
         kolom1.appendChild(foto);  
         kolom1hoogte += foto.clientHeight + percentageToPixels(window, 2.5);
