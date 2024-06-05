@@ -47,6 +47,12 @@
 
 .kolom>img {
     width: 100%;
-    padding-bottom: var(--randmarge);
+    margin-bottom: var(--randmarge);
     object-fit: cover;
 }
+
+
+.tekstbij {
+    border: 2px solid var(--yang);
+    box-shadow: var(--ying) 0px 0px 0px 2px ;
+  }
