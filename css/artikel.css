@@ -1,14 +1,11 @@
+:root {
+    --randmarge: 2.5;
+}
+
 .instagram {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.instagram>img {
-    width: calc(95% / 3);
-    aspect-ratio: 1/1;
-    padding-bottom: 2.5%;
-    object-fit: cover;
 }
 
 .terugknop {
@@ -25,4 +22,15 @@
     align-items: center;
 
     font-weight: 500;
+}
+
+.kolom {
+    width: calc(95% / 3);
+    background-color: brown;
+}
+
+.kolom>img {
+    width: 100%;
+    padding-bottom: 2.5%;
+    object-fit: cover;
 }
