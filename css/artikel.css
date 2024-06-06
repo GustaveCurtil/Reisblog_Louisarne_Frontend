@@ -53,6 +53,5 @@
 
 
 .tekstbij {
-    border: 2px solid var(--yang);
-    box-shadow: var(--ying) 0px 0px 0px 2px ;
+    border: 2px solid white;
   }

@@ -37,6 +37,7 @@ nav div:last-of-type {
 .FAQ {
     background-color: var(--ying);
     padding: 2%;
+    font-size: 3vw;
 }
 
 .FAQ>div {
@@ -44,7 +45,7 @@ nav div:last-of-type {
     justify-content: space-between;
     align-items: center;
     color: var(--achtergrondkleur);
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .FAQ ins {
@@ -60,12 +61,14 @@ nav div:last-of-type {
 
 .vraag {
     color: var(--yang);
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 4vw ;
 }
 
 .antwoord {
     color: var(--achtergrondkleur);
     font-weight: 300;
+    font-size: 4vw ;
 }
 
 /*/ / VERHALEN / /*/
