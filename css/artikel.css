@@ -54,4 +54,38 @@
 
 .tekstbij {
     border: 2px solid white;
-  }
+}
+
+
+#pagewrapper, #fotogalerij {
+    display: none;
+}
+
+#fotogalerij {
+    height: calc(100svh - 40px);
+    overflow-y: auto;
+}
+
+.visible {
+    display: block !important;
+}
+
+#fotogalerij article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#fotogalerij .voortgang {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fotogalerij img {
+    width: 100%;
+}
