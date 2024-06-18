@@ -89,18 +89,36 @@
 #fotogalerij article {
     height: calc(100svh - 80px);
     width: 100vw;
+    overflow-y: hidden;
+}
+
+#fotogalerij ul {
+    height: calc(100svh - 80px);
     display: flex;
-    overflow-x:auto;
+    overflow-y: scroll;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    list-style: none;
+}
+
+#fotogalerij li {
+    min-height: calc(100svh - 80px);
+    display: flex;
+    overflow-y: none;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
 }
 
 .fototekst {
+    
     height: auto;
     min-width: 100vw;
     padding: 0 2.5vw;
-    overflow-y: scroll;
-    overflow-x: hidden;
     scroll-snap-align: start;
+
 }
 
 
