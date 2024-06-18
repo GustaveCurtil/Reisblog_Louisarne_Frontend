@@ -1,4 +1,6 @@
 
+/*/ / TEKST, VERHAAL / /*/
+
 .verhaal {
     margin-bottom: 4%;
 }
@@ -16,6 +18,8 @@
     font-size: 14px;
     color: gray;
 }
+
+/*/ / FOTOREEKS / /*/
 
 .instagram {
     display: flex;
@@ -57,34 +61,48 @@
 }
 
 
+/*/ / FOTOCAROUSEL / /*/
+
+.visible { /*toggleknop*/
+    display: block !important;
+}
+
 #pagewrapper, #fotogalerij {
     display: none;
 }
 
 #fotogalerij {
     height: calc(100svh - 40px);
-    overflow-y: auto;
+    width: 100vw;
 }
 
-.visible {
-    display: block !important;
-}
 
-#fotogalerij article {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    margin: 0 auto;
-}
-
-#fotogalerij .voortgang {
-    width: 100%;
-    height: 20px;
+.voortgang {
+    width: 100svw;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
 }
+
+#fotogalerij article {
+    height: calc(100svh - 80px);
+    width: 100vw;
+    display: flex;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+}
+
+.fototekst {
+    height: auto;
+    min-width: 100vw;
+    padding: 0 2.5vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-align: start;
+}
+
 
 #fotogalerij img {
     width: 100%;
